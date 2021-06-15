@@ -1,2 +1,40 @@
+# Scala
 *.class
 *.log
+
+# SBT
+.cache/
+.history/
+.metals/
+.bloop/
+.lib
+dist
+target
+lib_managed
+src_managed
+project/project
+project/target
+project/.sbtserver*
+buildinfo.properties
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# OSX
+.DS_Store
+/bin/
+.vscode/settings.json
+
+# Deployment
+ci_deploy.json
+shot.yaml
+__pycache__
+
+# .env
+*.env
+/.bsp/sbt.json
+/src/main/resources/blackbox.macosx
